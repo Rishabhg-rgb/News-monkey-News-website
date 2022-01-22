@@ -9,7 +9,7 @@ export class NewsItem extends Component {
       // let GMTDate =  new Date(String({date}))
       // GMTDate.toLocaleTimeString()
     return <div>
-        <div className="card my-3" style={{width: '18rem'}}>
+        <div className="card my-3 mx-4" style={{width: '18rem'}}>
   <img src={imageURL} className="card-img-top" alt="..." style={{height:"12rem"}} />
   <div className="card-body">
   <span className="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
